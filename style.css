@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  position: relative;
+}
+#search {
+  font-size: 36pt;
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background: white;
+}
+#search:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #8080ff;
+}
+#holder {
+  height: 100%;
+  line-height: 100%;
+}
+#wordlist {
+  padding: 0;
+  list-style: none;
+  line-height: normal;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+  margin: auto 0;
+}
+#wordlist li {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 24pt;
+  padding: 15px;
+  color: #a0a0a0;
+}
+#wordlist .selected {
+  font-weight: bold;
+  color: black;
+}
